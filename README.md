@@ -6,6 +6,15 @@ Sistem hidroponik cerdas untuk budidaya **selada**, dibangun dengan **ESP32**, *
 ESP32 memantau lingkungan dan mengendalikan aktuator secara otomatis, sementara sebuah model AI di sisi komputer
 memprediksi suhu 30 menit ke depan dan menyalakan kipas **sebelum** suhu melewati batas.
 
+---
+## Tim
+
+**Bit&Byte**, SIC Universitas Kuningan
+- Rehan Janwar Pratama
+- Melati Nurul Izzati
+- Rizky Riaadha Rismandana
+- Muhamad Farel Fauzan
+
 > Proyek **Bit&Byte**, SIC Universitas Kuningan.
 > Status: prototipe di simulator Wokwi. Model AI masih dilatih dengan **data sintetis** (lihat [Keterbatasan](#keterbatasan)).
 
@@ -320,9 +329,3 @@ Bagian ini sengaja ditulis terus terang agar tim dan penilai tidak salah menafsi
 - [ ] Broker MQTT pribadi dengan autentikasi dan TLS
 - [ ] Kalibrasi sensor pH dan PPM, serta kompensasi suhu
 - [ ] Computer vision untuk kesehatan daun selada (ESP32-CAM)
-
----
-
-## Tim
-
-**Bit&Byte**, SIC Universitas Kuningan
